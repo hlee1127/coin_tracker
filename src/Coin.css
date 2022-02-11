@@ -1,0 +1,100 @@
+.coin__row {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  color: white;
+}
+
+.crypto__name {
+  display: flex;
+  text-align: left;
+  width: 335px;
+  height: 70px;
+  padding: 10px 10px 10px 36px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.crypto__name > .symbol {
+  color: rgb(128, 138, 157);
+}
+
+.crypto__price {
+  display: flex;
+  text-align: right;
+  width: 172px;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.crypto__price > p {
+  width: 82px;
+  height: 18px;
+}
+
+.crypto__price__change {
+  display: flex;
+  text-align: right;
+  width: 226px;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.crypto__price__change > p {
+  width: 186px;
+  height: 18px;
+}
+
+.price__change_red {
+  color: #f00606;
+}
+
+.price__change_green {
+  color: #11d811;
+}
+
+.crypto__market__cap {
+  display: flex;
+  text-align: right;
+  width: 226px;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.crypto__market__cap > p {
+  width: 186px;
+  height: 18px;
+}
+
+.crypto__name > p:nth-of-type(1) {
+  margin: 0px 6px 0px 6px;
+}
+
+.crypto__name > img {
+  height: 50px;
+  width: 50px;
+}
+
+.crpyto__volume {
+  text-align: right;
+  width: 205px;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.crypto__supply {
+  text-align: right;
+  width: 226px;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
